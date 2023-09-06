@@ -51,16 +51,13 @@
       "alignment": "right",
       "segments": [
         {
-          "background": "#689f63",
-          "foreground": "#ffffff",
+          "background": "#0B59E7",
+          "foreground": "#000000",
           "invert_powerline": true,
           "powerline_symbol": "\ue0b2",
-          "properties": {
-            "fetch_version": true
-          },
           "style": "powerline",
-          "template": " {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} \ue718 ",
-          "type": "node"
+          "template": " \uf308 {{ .Context }} ",
+          "type": "docker"
         },
         {
           "background": "#00acd7",
