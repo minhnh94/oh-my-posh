@@ -52,7 +52,7 @@
       "segments": [
         {
           "background": "#0B59E7",
-          "foreground": "#000000",
+          "foreground": "#ffffff",
           "invert_powerline": true,
           "powerline_symbol": "\ue0b2",
           "style": "powerline",
